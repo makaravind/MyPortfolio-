@@ -1,0 +1,66 @@
+.section-contact
+    padding-bottom: 50px
+    
+    
+    .contact-lockup
+        
+        display: block
+        margin: 50px auto 50px
+        +clearfix
+        clear: both
+        max-width: 550px
+
+        .icon-fb
+            
+            +size(50px)
+            background-image: url(../img/facebook-logo.png)
+            margin: 30px 0px 0px 100px
+            float: left
+            cursor: pointer
+            
+            
+        .icon-g
+            
+            +size(50px)
+            background-image: url(../img/g+-logo.png)
+            margin: 30px 0px 0px 100px
+            float: left
+            cursor: pointer
+     
+        .icon-git
+            
+            +size(50px)
+            background-image: url(../img/github-logo.png)
+            margin: 30px 0px 0px 100px
+            float: left
+            cursor: pointer
+            
+    .vertical-line
+
+        background: rgba(0,0,0,0.56)
+        margin: 80px auto 50px
+        width: 500px
+        display: block
+        height: 3px
+        +clearfix
+        
+    .contact-link
+        display: block
+        text-align: center
+        font:
+            size: 72px
+            weight: 10
+        
+        
+    &:hover .icon-fb
+        @extend %animation
+        
+        
+    &:hover .icon-g
+        @extend %animation
+        
+    &:hover .icon-git
+        @extend %animation
+        
+            
+            

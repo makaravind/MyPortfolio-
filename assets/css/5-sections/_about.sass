@@ -1,0 +1,71 @@
+section
+    
+    
+    h3
+        @extend %small-bold
+        color: $accent-color
+        text-align: center
+        margin-top: 100px
+
+    .face-img
+        +size(200px)
+        border-radius: 50%
+        background-image: url(../img/footer-bg-new.jpg)
+        margin: auto
+        margin-top: 75px
+
+
+    .about-para
+
+        max-width: 650px
+        margin: 0 auto 50px
+        margin-top: 50px
+
+        span
+
+            display: inline-block
+            padding: 3em 3em
+            border: $accent-color solid 7.5px
+            border-color: rgba(255,23,68,0.8)
+
+            p
+                text-align: center
+                font:
+                    size: 24px
+                font-weight: 100
+
+
+    .skill-lockup
+
+        max-width: 850px
+        margin: 100px auto
+        color: #999
+        margin-left: 355px
+        +clearfix
+
+        .skill-unit
+
+            width: 350px
+            float: left
+
+        .skill-icons
+            margin-bottom: 15px
+            .font-size: 0
+
+            span
+                display: inline-block
+                width: 25px
+                height: 5px
+                background-color: rgba(0, 176, 255, 1)
+            
+            .deactive
+                display: inline-block
+                width: 25px
+                height: 5px
+                background-color: rgba(0, 176, 255, 0.5)
+                
+
+
+
+
+
